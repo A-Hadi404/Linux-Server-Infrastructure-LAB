@@ -6,7 +6,7 @@
 ![Services](https://img.shields.io/badge/Services-DNS_%7C_Mail_%7C_Web_%7C_Proxy-475569?style=flat-square)
 ![Security](https://img.shields.io/badge/Security-TLS_%7C_Fail2Ban-7C3AED?style=flat-square)
 
-A team-built Linux infrastructure lab combining DNS, email, web hosting, SSH protection, and an HTTP proxy on one Rocky Linux server. An Ubuntu client was used to verify the services individually and together in a KVM environment.
+A Linux infrastructure lab combining DNS, email, web hosting, SSH protection, and an HTTP proxy on one Rocky Linux server. An Ubuntu client was used to verify the services individually and together in a KVM environment.
 
 The project demonstrates service integration, Linux administration, certificate management, and troubleshooting across the network and application layers. This README presents the completed work and a guided implementation and verification workflow for readers building a similar lab.
 
@@ -435,18 +435,6 @@ The most useful troubleshooting sequence was to check connectivity, name resolut
 - [ ] Document certificate trust and hostname validation for both Apache sites.
 - [ ] Add certificate-expiry monitoring, configuration backups, and a restore exercise.
 - [ ] Extend monitoring beyond service status to client-visible availability.
-
-## Contributors
-
-This was a group project. A.H. handled email configuration, overall integration, and final testing. Teammate GitHub usernames will be added when available.
-
-| Responsibility | Contributor |
-| --- | --- |
-| Email, integration, and final testing | A.H. |
-| BIND DNS | GitHub username pending |
-| Apache web hosting | GitHub username pending |
-| Fail2Ban | GitHub username pending |
-| Squid | GitHub username pending |
 
 <!-- Replace pending entries with verified GitHub profile links when supplied. -->
 
